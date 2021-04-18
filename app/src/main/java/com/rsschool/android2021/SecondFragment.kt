@@ -47,9 +47,9 @@ class SecondFragment : Fragment() {
         fun newInstance(min: Int, max: Int): SecondFragment {
             val fragment = SecondFragment()
             val args = Bundle()
-            args.putInt(MIN_VALUE_KEY, min)
-            args.putInt(MAX_VALUE_KEY, max)
-            fragment.arguments = args
+
+            // TODO: implement adding arguments
+
             return fragment
         }
 
